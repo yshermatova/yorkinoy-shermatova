@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yorkinoy Shermatova — Mathematical Ecologist</title>
+  <meta name="description" content="Postdoctoral Associate at the University of Minnesota studying mathematical ecology, disease dynamics in forest ecosystems, and remote sensing for forest health.">
+  <meta property="og:title" content="Yorkinoy Shermatova — Mathematical Ecologist">
+  <meta property="og:description" content="Mathematical and computational ecologist researching disease dynamics, biodiversity, and remote sensing at the University of Minnesota.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232d5a27'/><text y='24' x='4' font-size='22' fill='white' font-family='serif'>Y</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="main-nav">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          <!-- SVG Logo Mark -->
+          <svg class="nav__logo-mark" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="YS monogram logo">
+            <rect width="36" height="36" rx="8" fill="var(--color-primary)"/>
+            <!-- Stylized leaf/Y -->
+            <path d="M10 10 L18 20 L26 10" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <path d="M18 20 L18 28" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+            <!-- small leaf accent -->
+            <path d="M21 16 Q26 12 24 8 Q20 10 21 16Z" fill="white" fill-opacity="0.4"/>
+          </svg>
+          <div class="nav__name">
+            Yorkinoy Shermatova
+            <span>Mathematical Ecologist</span>
+          </div>
+        </a>
+
+        <ul class="nav__links" role="list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+
+        <div class="nav__actions">
+          <button class="btn-icon" data-theme-toggle aria-label="Toggle dark mode">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+          <button class="btn-icon nav__hamburger" id="hamburger-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Navigation">
+    <button class="btn-icon mobile-menu__close" id="close-menu-btn" aria-label="Close menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="cv.html">CV</a>
+  </div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Postdoctoral Associate · University of Minnesota</p>
+            <h1 class="hero__title">Yorkinoy<br><em>Shermatova</em></h1>
+            <p class="hero__role">Department of Ecology, Evolution and Behavior</p>
+            <p class="hero__institution">
+              <a href="https://cbs.umn.edu/departments/eeb" target="_blank" rel="noopener">University of Minnesota – Twin Cities</a>
+            </p>
+            <div class="hero__tags">
+              <span class="tag tag--green">Mathematical Ecology</span>
+              <span class="tag tag--green">Disease Dynamics</span>
+              <span class="tag tag--green">Forest Health</span>
+              <span class="tag">Dynamical Systems</span>
+              <span class="tag">Remote Sensing</span>
+              <span class="tag">Agent-Based Models</span>
+            </div>
+            <div class="hero__ctas">
+              <a href="research.html" class="btn btn--primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                View Research
+              </a>
+              <a href="publications.html" class="btn btn--outline">Publications</a>
+              <a href="cv.html" class="btn btn--outline">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Full CV
+              </a>
+            </div>
+            <div class="hero__contact-bar">
+              <a href="mailto:sherm545@umn.edu" class="contact-link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                sherm545@umn.edu
+              </a>
+              <a href="https://scholar.google.com" target="_blank" rel="noopener" class="contact-link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 0 1 .665 6.479A11.952 11.952 0 0 0 12 20.055a11.952 11.952 0 0 0-6.824-2.998 12.078 12.078 0 0 1 .665-6.479L12 14z"/></svg>
+                Google Scholar
+              </a>
+              <span class="contact-link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                St. Paul, MN · USA
+              </span>
+            </div>
+          </div>
+
+          <div class="hero__portrait">
+            <div class="hero__portrait-frame">
+              <div class="hero__portrait-bg" role="img" aria-label="Portrait placeholder — Yorkinoy Shermatova">
+                YS
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+          <div class="stat">
+            <div class="stat__number">3</div>
+            <div class="stat__label">Publications</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">8+</div>
+            <div class="stat__label">Talks &amp; Presentations</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">$439K</div>
+            <div class="stat__label">Grant Funding</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">5.73<span style="font-size:0.5em">/6</span></div>
+            <div class="stat__label">Teaching Rating</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__label">Focus Areas</p>
+          <h2 class="section__title">Research Interests</h2>
+          <p class="section__lead">My work sits at the intersection of applied mathematics and ecology — using mathematical models to understand how diseases spread through forests, how biodiversity shapes ecosystem resilience, and how satellite observations can detect emerging threats.</p>
+        </div>
+        <div class="research-grid">
+          <div class="research-card fade-up">
+            <div class="research-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+            </div>
+            <h3 class="research-card__title">Disease Dynamics in Forest Ecosystems</h3>
+            <p class="research-card__body">Mathematical modeling of oak wilt disease spread — understanding how species diversity, landscape structure, and root connections govern epidemic trajectories in mixed forests.</p>
+          </div>
+          <div class="research-card fade-up">
+            <div class="research-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg>
+            </div>
+            <h3 class="research-card__title">Individual &amp; Agent-Based Models</h3>
+            <p class="research-card__body">Simulating tree-level interactions, species coexistence, and disease-fire feedbacks using agent-based frameworks to capture ecological heterogeneity that aggregate models miss.</p>
+          </div>
+          <div class="research-card fade-up">
+            <div class="research-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="research-card__title">Remote Sensing &amp; Machine Learning</h3>
+            <p class="research-card__body">Integrating spaceborne phenological observations with ecological models to detect invasive tree diseases at landscape scale — bridging satellite data and field ecology.</p>
+          </div>
+          <div class="research-card fade-up">
+            <div class="research-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3 class="research-card__title">Dynamical Systems &amp; Climate Mathematics</h3>
+            <p class="research-card__body">Applying ODE/PDE frameworks and dynamical systems theory to ecological and climate problems — including polar vortex dynamics, COVID-19 case fatality modeling, and biodiversity theory.</p>
+          </div>
+          <div class="research-card fade-up">
+            <div class="research-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="research-card__title">Theoretical Ecology &amp; Biodiversity</h3>
+            <p class="research-card__body">Exploring how species coexistence mechanisms — competitive exclusion, facilitation, trait diversity — shape community assembly and disease resilience in temperate forest systems.</p>
+          </div>
+          <div class="research-card fade-up">
+            <div class="research-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="research-card__title">Computational Methods</h3>
+            <p class="research-card__body">Python and MATLAB for large-scale simulations; statistical analysis of ecological data; developing reusable computational tools for mathematical ecology research.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Current Project -->
+    <section class="section">
+      <div class="container">
+        <div class="split--3-2 split">
+          <div>
+            <p class="section__label">Current Work</p>
+            <h2 class="section__title">Detecting Invasive Tree Diseases from Space</h2>
+            <p style="font-size:var(--text-base); color:var(--color-text-muted); line-height:1.75; margin-bottom:var(--space-6);">
+              As a postdoctoral associate in the <strong style="color:var(--color-text);">Pinto-Ledezma Lab</strong>, I am developing methods to detect and monitor invasive forest pathogens — including oak wilt — using spaceborne phenological signals and machine learning.
+            </p>
+            <p style="font-size:var(--text-base); color:var(--color-text-muted); line-height:1.75; margin-bottom:var(--space-8);">
+              This work is funded by the <a href="https://mitppc.umn.edu" target="_blank" rel="noopener">Minnesota Invasive Terrestrial Plants and Pests Center (MITPPC)</a> with a total award of $435,937, and combines remote sensing, ecological modeling, and epidemiological theory.
+            </p>
+            <a href="research.html" class="btn btn--primary">Learn More About My Research</a>
+          </div>
+          <div>
+            <div style="padding:var(--space-8); border-radius:var(--radius-xl); background:var(--color-primary-light); border:1px solid var(--color-primary-highlight);">
+              <p style="font-size:var(--text-xs); font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--color-primary); margin-bottom:var(--space-4);">Recent Highlight</p>
+              <p style="font-family:var(--font-display); font-size:var(--text-lg); font-weight:400; font-style:italic; color:var(--color-text); line-height:1.4; margin-bottom:var(--space-4);">"Mathematical modeling of oak wilt dynamics: The protective role of white oaks in mixed forests"</p>
+              <p style="font-size:var(--text-sm); color:var(--color-text-muted);">Shermatova, McGehee &amp; Cavender-Bares · <em>Submitted to Ecological Modelling</em> · 2026</p>
+              <div style="margin-top:var(--space-5); padding-top:var(--space-4); border-top:1px solid var(--color-primary-highlight);">
+                <a href="publications.html" class="contact-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                  All Publications →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Appointments -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="split">
+          <div>
+            <p class="section__label">Career</p>
+            <h2 class="section__title">Academic Appointments</h2>
+            <div class="timeline" style="margin-top:var(--space-8);">
+              <div class="timeline-item">
+                <p class="timeline-item__date">Jan 2025 – Present</p>
+                <p class="timeline-item__title">Postdoctoral Associate</p>
+                <p class="timeline-item__place">Dept. of Ecology, Evolution and Behavior · University of Minnesota</p>
+                <p class="timeline-item__detail">Detecting Invasive Tree Diseases Using Spaceborne Phenological Observations (PI: J. Pinto-Ledezma)</p>
+              </div>
+              <div class="timeline-item">
+                <p class="timeline-item__date">Aug 2018 – Dec 2024</p>
+                <p class="timeline-item__title">Graduate Instructor / Teaching Assistant</p>
+                <p class="timeline-item__place">Dept. of Mathematics · University of Minnesota</p>
+              </div>
+              <div class="timeline-item">
+                <p class="timeline-item__date">Summer 2022</p>
+                <p class="timeline-item__title">Graduate Research Assistant</p>
+                <p class="timeline-item__place">College of Biological Sciences · University of Minnesota</p>
+                <p class="timeline-item__detail">Oak Wilt disease modeling</p>
+              </div>
+              <div class="timeline-item">
+                <p class="timeline-item__date">Aug 2017 – May 2018</p>
+                <p class="timeline-item__title">Adjunct Lecturer</p>
+                <p class="timeline-item__place">Dept. of Mathematics · Fordham University, NY</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="section__label">Education</p>
+            <h2 class="section__title">Degrees</h2>
+            <div class="timeline" style="margin-top:var(--space-8);">
+              <div class="timeline-item">
+                <p class="timeline-item__date">December 2024</p>
+                <p class="timeline-item__title">Ph.D., Applied Mathematics</p>
+                <p class="timeline-item__place">University of Minnesota – Twin Cities</p>
+                <p class="timeline-item__detail">Minor: Ecology, Evolution, and Behavior<br>Thesis: <em>A Mathematical Exploration of Disease and Diversity in Oaks: The Case of Oak Wilt Disease</em><br>Advisor: Prof. Richard McGehee</p>
+              </div>
+              <div class="timeline-item">
+                <p class="timeline-item__date">June 2017</p>
+                <p class="timeline-item__title">M.S., Mathematics</p>
+                <p class="timeline-item__place">City College of New York, NY</p>
+              </div>
+              <div class="timeline-item">
+                <p class="timeline-item__date">July 2009</p>
+                <p class="timeline-item__title">B.S., Mathematics</p>
+                <p class="timeline-item__place">Samarkand State University, Uzbekistan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards -->
+    <section class="section">
+      <div class="container container--narrow" style="max-width:720px;">
+        <div class="section__header">
+          <p class="section__label">Recognition</p>
+          <h2 class="section__title">Honors &amp; Awards</h2>
+        </div>
+        <div class="awards-list">
+          <div class="award-item">
+            <div>
+              <div class="award-item__year">2024</div>
+            </div>
+            <div>
+              <div class="award-item__name">Ella Thorp Graduate Fellowship</div>
+              <div class="award-item__org">Department of Mathematics · University of Minnesota</div>
+            </div>
+          </div>
+          <div class="award-item">
+            <div>
+              <div class="award-item__year">2021</div>
+            </div>
+            <div>
+              <div class="award-item__name">COGS Outstanding Teaching Assistant Award</div>
+              <div class="award-item__org">University of Minnesota · 2020–2021</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="footer__copy">© 2026 Yorkinoy Shermatova · Ecology Building, 1987 Upper Buford Circle, St. Paul, MN 55108</p>
+        <ul class="footer__links" role="list">
+          <li><a href="mailto:sherm545@umn.edu">Email</a></li>
+          <li><a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Dark mode toggle
+    (function () {
+      const t = document.querySelector('[data-theme-toggle]'),
+        r = document.documentElement;
+      let d = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+      r.setAttribute('data-theme', d);
+      if (t) {
+        t.innerHTML = d === 'dark'
+          ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+          : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+        t.addEventListener('click', () => {
+          d = d === 'dark' ? 'light' : 'dark';
+          r.setAttribute('data-theme', d);
+          t.innerHTML = d === 'dark'
+            ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+            : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+        });
+      }
+    })();
+
+    // Sticky nav shadow
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 10);
+    }, { passive: true });
+
+    // Mobile menu
+    const hamburger = document.getElementById('hamburger-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const closeBtn = document.getElementById('close-menu-btn');
+    if (hamburger && mobileMenu) {
+      hamburger.addEventListener('click', () => mobileMenu.classList.add('open'));
+      closeBtn.addEventListener('click', () => mobileMenu.classList.remove('open'));
+      mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+    }
+
+    // Fade-up on scroll
+    const fadeEls = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    fadeEls.forEach(el => observer.observe(el));
+
+    // Set active nav link
+    const currentPage = location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav__links a').forEach(a => {
+      const href = a.getAttribute('href');
+      if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+        a.classList.add('active');
+      } else {
+        a.classList.remove('active');
+      }
+    });
+  </script>
+</body>
+</html>
